@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: bankapp
-        image: vjneju/bankapp:v2.0
+        image: vjneju/bankapp:latest
         ports:
         - containerPort: 8080
         env:
